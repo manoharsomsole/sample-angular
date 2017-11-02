@@ -1,0 +1,13 @@
+<p>
+  home works!
+ <br> Drop down values are from GET service call.
+</p>
+<form name="sample"  novalidate [formGroup]="sample" (submit)="onSubmit()">
+<select [(ngModel)]="countrySelected" formControlName="countrySelected" (change)="onCountryChange()">
+  <option value="selected">Select</option>
+  <!--option value="door1">11G</option>
+  <option value="door2">12G</option-->
+    <option *ngFor="let obj of countryList" [value]="obj.code">{{obj.name}}</option>
+</select>
+<p>{{ctryName}}</p>
+</form>

@@ -1,0 +1,15 @@
+
+[ 
+  {"name": "Afghanistan", "code": "AF"}, 
+  {"name": "Åland Islands", "code": "AX"}, 
+  {"name": "Albania", "code": "AL"}, 
+  {"name": "Algeria", "code": "DZ"}, 
+  
+  {"name": "Kiribati", "code": "KI"}, 
+  {"name": "Korea", "code": "KP"}, 
+  {"name": "Korea, Republic of", "code": "KR"}, 
+  {"name": "Kuwait", "code": "KW"}, 
+  
+  {"name": "Zambia", "code": "ZM"}, 
+  {"name": "Zimbabwe", "code": "ZW"} 
+]
